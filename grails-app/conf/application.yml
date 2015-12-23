@@ -65,6 +65,10 @@ grails:
                 scriptlets: html
                 taglib: none
                 staticparts: none
+    web:   
+        url:
+            converter: hyphenated
+
 ---
 hibernate:
     cache:
